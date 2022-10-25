@@ -9,7 +9,7 @@
   - [Testing](#testing)
   - [Additional Info](#additional-info)
   ## Description:
-  build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
+   A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. I will also be testing my code to make it more maintainable.
   ## Installation:
    I would preferably download Visual Studio Code to bring down my code to your local storage.
   ## Usage:
