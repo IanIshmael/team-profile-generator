@@ -6,7 +6,7 @@ describe("Manager class", () => {
       "David",
       23,
       "David@gmail.com",
-      "010-101-010 x6547"
+      "010-101-010 2323"
     );
 
     expect(manager).toEqual({

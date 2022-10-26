@@ -3,6 +3,7 @@
   [![license](https://img.shields.io/badge/license-mit-blue)](https://shields.io)
   ## Table of Contents 
   - [Description](#description)
+  - [Demo](#demo)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
@@ -10,6 +11,8 @@
   - [Additional Info](#additional-info)
   ## Description:
    A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. I will also be testing my code to make it more maintainable.
+   ## Demo:
+   [demo video](./Assets/Untitled_%20Oct%2026%2C%202022%204_04%20PM.webm)
   ## Installation:
    I would preferably download Visual Studio Code to bring down my code to your local storage.
   ## Usage:

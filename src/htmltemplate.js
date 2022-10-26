@@ -71,7 +71,7 @@ const generateHTML = (team) => {
                       <li class="list-group-item">ID:${intern.getId()}</li>
                       <li class="list-group-item">Email:<a href="#">${intern.getEmail()}</a></li>
                       <li class="list-group-item">
-                        School:<a href="#">${intern.getSchool()}</a>
+                        School:<p>${intern.getSchool()}</p>
                       </li>
                     </ul>
                   </div>
