@@ -3,7 +3,7 @@ const fs = require("fs");
 const Manager = require("./lib/manager");
 const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
-const generateHtml = require('./src/htmltemplate')
+const generateHtml = require("./src/htmltemplate");
 const createdEmployees = [];
 
 const start = function () {
@@ -87,19 +87,19 @@ const createEngineer = function () {
       },
     ])
     .then((answers) => {
-        const engineer = new Engineer(
-          answers.name,
-          answers.id,
-          answers.email,
-          answers.github
-        );
-        createdEmployees.push(engineer);
-        askedNext();
+      const engineer = new Engineer(
+        answers.name,
+        answers.id,
+        answers.email,
+        answers.github
+      );
+      createdEmployees.push(engineer);
+      askedNext();
     });
 };
 
 const createIntern = function () {
-    inquirer
+  inquirer
     .prompt([
       {
         type: "input",
@@ -134,5 +134,10 @@ const createIntern = function () {
     });
 };
 
+function createHtml() {
+  fs.writeFile("./dist/index.html", generateHtml(createdEmployees), (err) =>
+    err ? console.log(err) : console.log("Successfully created index.html!")
+  );
+}
 
 start();
