@@ -16,7 +16,7 @@ const start = function () {
       },
       {
         name: "id",
-        type: "number",
+        type: "input",
         message: "What is your team managers id?",
       },
       {
@@ -25,8 +25,8 @@ const start = function () {
         message: "What is your team managers email address?",
       },
       {
-        name: "number",
-        type: "number",
+        name: "officeNumber",
+        type: "input",
         message: "What is your team managers office number?",
       },
     ])
@@ -36,7 +36,7 @@ const start = function () {
         response.name,
         response.id,
         response.email,
-        response.number
+        response.officeNumber
       );
       createdEmployees.push(newManager);
       askedNext();
