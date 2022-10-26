@@ -1,0 +1,24 @@
+body {
+    font-family: "Barlow", sans-serif;
+  }
+  .navbar {
+    background-color: #ff3e62;
+    color: #fff;
+    padding: 20px;
+  }
+  nav,
+  h1 {
+    margin: auto;
+  }
+  .cards {
+    display: flex;
+    column-gap: 25px;
+    margin-top: 40px;
+    margin: auto;
+  }
+  
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+    margin: auto;
+  }
